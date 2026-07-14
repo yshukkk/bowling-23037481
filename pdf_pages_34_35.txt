@@ -1,0 +1,21 @@
+--- page 34 ---
+Agentic Engineering TDD 리뷰
+human-in-the-loop 를강조하여 Agent 를사용한 TDD 를진행해본다.
+1. RED 
+• 목표 정확히 설정
+• Plan.md 생성 요청 후 검토
+2. Green
+• RED 에서 생성된 goal 을 달성하도록 구현
+• 테스트를 실제로 통과하는지 체크
+3. Review
+• Green 의 코드를리뷰
+• Plan 외의 사항이 구현되었는지
+• 리팩토링이 필요하다면 요청하기
+--- page 35 ---
+프로젝트 수행시 커밋할 부분
+agentic engineering 수행을체크하기위한용도로, 
+각단계별필요한커밋들을생성한다.
+RED 단계에서 생성된
+Plan.md Commit
+GREEN 단계의 코드를 검토 후 Commit
+
