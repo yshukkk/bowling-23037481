@@ -9,6 +9,9 @@ class Game:
         total = 0
         i = 0
         for _ in range(10):
-            total += self.rolls[i] + self.rolls[i + 1]
+            if self.rolls[i] + self.rolls[i + 1] == 10:
+                total += 10 + self.rolls[i + 2]
+            else:
+                total += self.rolls[i] + self.rolls[i + 1]
             i += 2
         return total
