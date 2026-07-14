@@ -41,3 +41,11 @@ def test_perfect_game_scores_300():
     for _ in range(12):
         game.roll(10)
     assert game.score() == 300
+
+
+def test_mixed_frames_game_scores_124():
+    game = Game()
+    rolls = [3, 6, 10, 5, 5, 2, 3, 10, 10, 0, 0, 7, 2, 5, 5, 10, 3, 6]
+    for r in rolls:
+        game.roll(r)
+    assert game.score() == 124
